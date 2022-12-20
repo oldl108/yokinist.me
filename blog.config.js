@@ -2,11 +2,11 @@
  * @type {import('~/types').BlogConfig}
  */
 const BLOG = {
-  title: 'yokinist.me',
-  author: 'yokinist',
-  email: 'yokinist@gmail.com',
-  link: 'https://yokinist.me',
-  description: '色々なことを雑多に書いていく場所。とりとめもないエッセイやポエム・趣味の話などなど。',
+  title: 'oldl.net',
+  author: 'oldl',
+  email: 'limengd@gmail.com',
+  link: 'https://oldl.net',
+  description: 'a blog',
   lang: 'ja-JP', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'dark', // ['light', 'dark'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -21,9 +21,9 @@ const BLOG = {
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://simple-og-image.vercel.app', // The link to generate OG image, don't end with a slash
   // detail: https://github.com/yokinist/og-image/blob/main/api/_lib/types.ts#L2-L12
-  socialLink: 'https://twitter.com/yokinist',
+  socialLink: 'https://twitter.com/zklimeng',
   seo: {
-    keywords: ['yokinist'],
+    keywords: ['blog'],
     googleSiteVerification: '', // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
@@ -36,19 +36,19 @@ const BLOG = {
       domainId: '', // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
     },
     gaConfig: {
-      measurementId: 'G-PJ2C55Q3CH', // e.g: G-XXXXXXXXXX
+      measurementId: '', // e.g: G-XXXXXXXXXX
     },
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
     provider: '', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: 'for-gitalk', // The repository of store comments
-      owner: 'yokinist',
-      clientID: 'f06077c5603d6099ec37',
+      repo: '', // The repository of store comments
+      owner: '',
+      clientID: '',
       clientSecret: process.env.GITALK_CLIENT_SECRET,
-      admin: ['yokinist'],
-      id: 'yokinist.me', // Ensure uniqueness and length less than 50
+      admin: [''],
+      id: '', // Ensure uniqueness and length less than 50
       distractionFreeMode: false,
     },
     utterancesConfig: {
